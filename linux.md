@@ -1,10 +1,11 @@
 only the ones with some kind of prog
+
 E4-2
 Rewrite the program in Q1 using vfork() and write the output
 
+
 #include <stdio.h>
 #include <unistd.h>
-
 int main() {
     int a = 5, b = 10, pid;
 
